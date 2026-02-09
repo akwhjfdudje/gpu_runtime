@@ -8,7 +8,6 @@ enum class DeviceType {
     CUDA
 };
 
-// TODO: make this make sense, it doesn't right now.
 struct Tensor {
     void* device = nullptr;   // CUDA device pointer
     void* host   = nullptr;   // Optional host mirror
